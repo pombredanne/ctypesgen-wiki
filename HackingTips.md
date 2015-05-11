@@ -6,20 +6,13 @@ Pull code down, see http://code.google.com/p/ctypesgen/source/checkout
 
 ## Run test suite
 
-Currently the tests are hard coded to use GNU gcc, and gcc needs to be in the path.
-
-Test suite also only works if called from the "test" directory.
-
-E.g. assuming in root svn checkout directory:
-
-Set path, Windows example (Linux/Unix probably has gcc in the path already):
+Currently the tests are hard coded to use GNU gcc, and gcc needs to be in the path. The test suite also only works if called from the "test" directory. E.g. assuming in root svn checkout directory, you can run the following example on Windows. (Linux/Unix probably has gcc in the path already)
 
     path %SystemDrive%\MinGW\bin;%PATH%
 
-run test(s):
+... then run test(s):
 
-   cd test
-   python testsuite.py 
+    cd test
+    python testsuite.py 
 
-
-May be able to run nose or some other test runner but the test suite simply relies on the batteries included unittest module.
+You may be able to run nose or some other test runner but the test suite simply relies on the batteries included unittest module.
