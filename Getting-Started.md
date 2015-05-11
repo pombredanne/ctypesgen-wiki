@@ -54,4 +54,4 @@ Pure Python processor would be a nice addition but at the moment there does not 
   * http://www.atrandomresearch.com/pyembc/
   * http://code.google.com/p/preprocess/
 
-See HackingTips for modifying ctypesgen and testing information.
+See [[Hacking-Tips|Hacking-Tips]] for modifying ctypesgen and testing information.
