@@ -15,6 +15,9 @@ Sometimes, libraries will depend on each other. You can specify these dependenci
 
     $ python ctypesgen.py $FLAGS -llibaprutil-1.so $HOME/include/apr-1/ap[ru]*.h -mapr -o apr_util.py
   
-
+If you want JSON output (e.g. for generating Lua bindings), use
+--output-language=json. When outputting JSON, you will probably want to use
+--all-headers --builtin-symbols --no-stddef-types --no-gnu-types
+--no-python-types too.
 
  
