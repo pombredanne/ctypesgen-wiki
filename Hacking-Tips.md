@@ -2,7 +2,7 @@
 
 Found a bug? Don't like the way the code is generated? Start experimenting with the code.
 
-Pull code down, see http://code.google.com/p/ctypesgen/source/checkout
+Pull code down: `git clone https://github.com/davidjamesca/ctypesgen.git`
 
 ## Run test suite
 
